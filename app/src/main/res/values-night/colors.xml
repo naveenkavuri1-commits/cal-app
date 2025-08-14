@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="compkn_color_background">@color/compkn_color_background_dark</color>
+	<color name="compkn_color_on_background">@color/compkn_color_on_background_dark</color>
+	<color name="compkn_color_button_number">@color/compkn_color_button_number_dark</color>
+	<color name="compkn_color_button_number_text">@color/compkn_color_on_background_dark</color>
+</resources>

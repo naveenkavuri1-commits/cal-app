@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="12dp"
+	android:background="@color/compkn_color_background">
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/compkn_recycler_categories"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:overScrollMode="never"
+		android:nestedScrollingEnabled="false"/>
+
+	<LinearLayout
+		android:id="@+id/compkn_panel_converter"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingTop="12dp">
+
+		<EditText
+			android:id="@+id/compkn_input_value"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/compkn_input_hint"
+			android:inputType="numberDecimal"
+			android:textColor="@color/compkn_color_on_background"
+			android:textColorHint="#88FFFFFF"/>
+
+		<Spinner
+			android:id="@+id/compkn_spinner_from"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+		<Spinner
+			android:id="@+id/compkn_spinner_to"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:id="@+id/compkn_text_result"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/compkn_color_on_background"
+			android:textSize="20sp"
+			android:paddingTop="8dp"
+			android:text="@string/compkn_result"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="compkn_app_name">compkn Calc &amp; Convert</string>
+    <string name="compkn_app_name">Calc &amp; Convert</string>
     <string name="compkn_tab_calculator">Calculator</string>
     <string name="compkn_tab_converter">Converter</string>
 

@@ -15,6 +15,10 @@
             android:exported="false" />
 
         <activity
+            android:name=".compknScientificActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".compknMainActivity"
             android:exported="true">
             <intent-filter>

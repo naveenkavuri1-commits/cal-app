@@ -33,13 +33,22 @@
 		android:orientation="horizontal"
 		android:gravity="end">
 		<ToggleButton
+			android:id="@+id/compkn_btn_sci_mode"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textOn="SCI"
+			android:textOff="SCI"
+			android:checked="false"
+			android:padding="8dp"/>
+		<ToggleButton
 			android:id="@+id/compkn_btn_second"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textOn="2nd"
 			android:textOff="2nd"
 			android:checked="false"
-			android:padding="8dp"/>
+			android:padding="8dp"
+			android:visibility="gone"/>
 	</LinearLayout>
 
 	<GridLayout
@@ -48,7 +57,8 @@
 		android:layout_height="wrap_content"
 		android:columnCount="5"
 		android:rowCount="2"
-		android:useDefaultMargins="true">
+		android:useDefaultMargins="true"
+		android:visibility="gone">
 
 		<Button android:id="@+id/compkn_btn_sin" style="@style/compkn_CalcButton_Operator" android:text="sin"/>
 		<Button android:id="@+id/compkn_btn_cos" style="@style/compkn_CalcButton_Operator" android:text="cos"/>

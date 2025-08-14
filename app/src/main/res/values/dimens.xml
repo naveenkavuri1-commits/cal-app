@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="compkn_padding_small">8dp</dimen>
+    <dimen name="compkn_padding">12dp</dimen>
+    <dimen name="compkn_padding_large">16dp</dimen>
+    <dimen name="compkn_button_height">56dp</dimen>
+    <dimen name="compkn_button_radius">28dp</dimen>
+    <dimen name="compkn_text_h1">34sp</dimen>
+    <dimen name="compkn_text_h2">24sp</dimen>
+    <dimen name="compkn_text_body">16sp</dimen>
+</resources>

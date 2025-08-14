@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="compkn_app_name">compkn Calc & Convert</string>
+    <string name="compkn_tab_calculator">Calculator</string>
+    <string name="compkn_tab_converter">Converter</string>
+
+    <string name="compkn_btn_ac">AC</string>
+    <string name="compkn_btn_back">⌫</string>
+    <string name="compkn_btn_second">2nd</string>
+    <string name="compkn_btn_equals">=</string>
+    <string name="compkn_btn_percent">%</string>
+    <string name="compkn_btn_decimal">.</string>
+
+    <string name="compkn_category_currency">Currency</string>
+    <string name="compkn_category_length">Length</string>
+    <string name="compkn_category_mass">Mass</string>
+    <string name="compkn_category_area">Area</string>
+    <string name="compkn_category_time">Time</string>
+    <string name="compkn_category_finance">Finance</string>
+    <string name="compkn_category_data">Data</string>
+    <string name="compkn_category_date">Date</string>
+    <string name="compkn_category_discount">Discount</string>
+    <string name="compkn_category_volume">Volume</string>
+    <string name="compkn_category_numeral">Numeral System</string>
+    <string name="compkn_category_speed">Speed</string>
+    <string name="compkn_category_temperature">Temperature</string>
+    <string name="compkn_category_bmi">BMI</string>
+    <string name="compkn_category_gst">GST</string>
+
+    <string name="compkn_input_hint">Enter value</string>
+    <string name="compkn_select_unit">Select unit</string>
+    <string name="compkn_result">Result</string>
+    <string name="compkn_from">From</string>
+    <string name="compkn_to">To</string>
+</resources>

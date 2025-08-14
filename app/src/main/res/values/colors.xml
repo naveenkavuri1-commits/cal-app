@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="compkn_color_background_light">#FFFFFFFF</color>
+    <color name="compkn_color_background_dark">#121212</color>
+    <color name="compkn_color_surface_dark">#1E1E1E</color>
+    <color name="compkn_color_on_background_light">#000000</color>
+    <color name="compkn_color_on_background_dark">#FFFFFF</color>
+
+    <color name="compkn_color_operator_light">#87CEFA</color>
+    <color name="compkn_color_operator_dark">#5AADE0</color>
+    <color name="compkn_color_equal_dark">#1E88E5</color>
+    <color name="compkn_color_equal_light">#1976D2</color>
+
+    <color name="compkn_color_button_number_light">#FFFFFFFF</color>
+    <color name="compkn_color_button_number_dark">#2A2A2A</color>
+    <color name="compkn_color_button_border">#33445566</color>
+
+    <color name="compkn_color_primary">#90CAF9</color>
+    <color name="compkn_color_primary_dark">#42A5F5</color>
+    <color name="compkn_color_secondary">#64B5F6</color>
+    <color name="compkn_color_accent">#2979FF</color>
+
+    <color name="compkn_color_background">@color/compkn_color_background_light</color>
+    <color name="compkn_color_on_background">@color/compkn_color_on_background_light</color>
+    <color name="compkn_color_button_number">@color/compkn_color_button_number_light</color>
+    <color name="compkn_color_button_number_text">@color/compkn_color_on_background_light</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/compkn_color_background">
+
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<com.google.android.material.tabs.TabLayout
+			android:id="@+id/compkn_tab_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:tabIndicatorColor="@color/compkn_color_accent"
+			app:tabSelectedTextColor="@color/compkn_color_accent"
+			app:tabTextColor="@color/compkn_color_on_background"/>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<androidx.viewpager2.widget.ViewPager2
+		android:id="@+id/compkn_view_pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

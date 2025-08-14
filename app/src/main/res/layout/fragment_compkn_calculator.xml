@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="16dp"
+	android:background="@color/compkn_color_background">
+
+	<TextView
+		android:id="@+id/compkn_display_expression"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/compkn_color_on_background"
+		android:textSize="20sp"
+		android:gravity="end"
+		android:maxLines="2"
+		android:ellipsize="end"/>
+
+	<TextView
+		android:id="@+id/compkn_display_result"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/compkn_color_on_background"
+		android:textSize="34sp"
+		android:textStyle="bold"
+		android:gravity="end"
+		android:paddingTop="8dp"
+		android:paddingBottom="12dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="end">
+		<ToggleButton
+			android:id="@+id/compkn_btn_second"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textOn="2nd"
+			android:textOff="2nd"
+			android:checked="false"
+			android:padding="8dp"/>
+	</LinearLayout>
+
+	<GridLayout
+		android:id="@+id/compkn_grid_scientific"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:columnCount="5"
+		android:rowCount="2"
+		android:useDefaultMargins="true">
+
+		<Button android:id="@+id/compkn_btn_sin" style="@style/compkn_CalcButton_Operator" android:text="sin"/>
+		<Button android:id="@+id/compkn_btn_cos" style="@style/compkn_CalcButton_Operator" android:text="cos"/>
+		<Button android:id="@+id/compkn_btn_tan" style="@style/compkn_CalcButton_Operator" android:text="tan"/>
+		<Button android:id="@+id/compkn_btn_ln" style="@style/compkn_CalcButton_Operator" android:text="ln"/>
+		<Button android:id="@+id/compkn_btn_log" style="@style/compkn_CalcButton_Operator" android:text="log"/>
+
+		<Button android:id="@+id/compkn_btn_pi" style="@style/compkn_CalcButton_Operator" android:text="π"/>
+		<Button android:id="@+id/compkn_btn_e" style="@style/compkn_CalcButton_Operator" android:text="e"/>
+		<Button android:id="@+id/compkn_btn_sqrt" style="@style/compkn_CalcButton_Operator" android:text="√"/>
+		<Button android:id="@+id/compkn_btn_pow" style="@style/compkn_CalcButton_Operator" android:text="xʸ"/>
+		<Button android:id="@+id/compkn_btn_fact" style="@style/compkn_CalcButton_Operator" android:text="n!"/>
+	</GridLayout>
+
+	<GridLayout
+		android:id="@+id/compkn_grid_basic"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:columnCount="4"
+		android:useDefaultMargins="true">
+
+		<Button android:id="@+id/compkn_btn_ac" style="@style/compkn_CalcButton_Operator" android:text="@string/compkn_btn_ac"/>
+		<Button android:id="@+id/compkn_btn_back" style="@style/compkn_CalcButton_Operator" android:text="@string/compkn_btn_back"/>
+		<Button android:id="@+id/compkn_btn_percent" style="@style/compkn_CalcButton_Operator" android:text="@string/compkn_btn_percent"/>
+		<Button android:id="@+id/compkn_btn_div" style="@style/compkn_CalcButton_Operator" android:text="÷"/>
+
+		<Button android:id="@+id/compkn_btn_7" style="@style/compkn_CalcButton_Number" android:text="7"/>
+		<Button android:id="@+id/compkn_btn_8" style="@style/compkn_CalcButton_Number" android:text="8"/>
+		<Button android:id="@+id/compkn_btn_9" style="@style/compkn_CalcButton_Number" android:text="9"/>
+		<Button android:id="@+id/compkn_btn_mul" style="@style/compkn_CalcButton_Operator" android:text="×"/>
+
+		<Button android:id="@+id/compkn_btn_4" style="@style/compkn_CalcButton_Number" android:text="4"/>
+		<Button android:id="@+id/compkn_btn_5" style="@style/compkn_CalcButton_Number" android:text="5"/>
+		<Button android:id="@+id/compkn_btn_6" style="@style/compkn_CalcButton_Number" android:text="6"/>
+		<Button android:id="@+id/compkn_btn_minus" style="@style/compkn_CalcButton_Operator" android:text="−"/>
+
+		<Button android:id="@+id/compkn_btn_1" style="@style/compkn_CalcButton_Number" android:text="1"/>
+		<Button android:id="@+id/compkn_btn_2" style="@style/compkn_CalcButton_Number" android:text="2"/>
+		<Button android:id="@+id/compkn_btn_3" style="@style/compkn_CalcButton_Number" android:text="3"/>
+		<Button android:id="@+id/compkn_btn_plus" style="@style/compkn_CalcButton_Operator" android:text="+"/>
+
+		<Button android:id="@+id/compkn_btn_0" style="@style/compkn_CalcButton_Number" android:text="0"/>
+		<Button android:id="@+id/compkn_btn_lparen" style="@style/compkn_CalcButton_Number" android:text="("/>
+		<Button android:id="@+id/compkn_btn_rparen" style="@style/compkn_CalcButton_Number" android:text=")"/>
+		<Button android:id="@+id/compkn_btn_decimal" style="@style/compkn_CalcButton_Number" android:text="@string/compkn_btn_decimal"/>
+
+		<Button android:id="@+id/compkn_btn_recip" style="@style/compkn_CalcButton_Operator" android:text="1/x"
+			android:layout_columnSpan="2"/>
+		<Button android:id="@+id/compkn_btn_equals" style="@style/compkn_CalcButton_Equal" android:text="@string/compkn_btn_equals"
+			android:layout_columnSpan="2"/>
+	</GridLayout>
+</LinearLayout>
